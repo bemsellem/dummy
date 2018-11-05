@@ -47,7 +47,7 @@ while jeu.upper() != "Q":
         print("Vous avez perdu.")
 
     if cash == 0:
-        print("Vous êtes ruiné")
+        print("Vous êtes ruiné.")
         jeu = "Q"
     else:
         print("Votre solde est de", cash, "dollars.")
